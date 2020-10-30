@@ -1,0 +1,1 @@
+emcc verify.cpp -s EXPORTED_FUNCTIONS=['_malloc','_free','_sqrt_int'] -s EXTRA_EXPORTED_RUNTIME_METHODS=['ccall','UTF8ToString'] -o verify.js
